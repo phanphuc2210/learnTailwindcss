@@ -206,19 +206,58 @@
         <!-- ===download=== -->
         <section>
             <!-- background -->
-            <div style="background-image: url(./img/download.png)">
-                <div>
+            <div 
+                class="relative w-full h-custom bg-no-repeat bg-cover"
+                style="background-image: url(./img/download.png)"
+            >
+                <div 
+                    class="
+                        absolute
+                        top-1/2
+                        left-1/2
+                        transform
+                        -translate-x-1/2
+                        -translate-y-1/2
+                        text-center
+                        text-white
+                    "
+                >
                     <!-- title -->
-                    <h1>Download the app now.</h1>
+                    <h1 class="text-4xl mb-5 font-bold max-w-2xl md:leading-relaxed md:text-5xl">Download the app now.</h1>
                     <!-- desc -->
-                    <p>
+                    <p class="text-xl mb-5 font-light">
                         Available on your favorite store. Start your premium
                         experience now
                     </p>
                     <!-- buttons -->
-                    <div>
-                        <button>Playstore</button>
-                        <button>Appstore</button>
+                    <div class="flex justify-center">
+                        <button 
+                            class="
+                                mx-4 
+                                border 
+                                border-transparent 
+                                bg-red-500 
+                                px-10 py-3 
+                                rounded-full
+                                hover:bg-transparent hover:border-white
+                                transition-all
+                            "
+                        >
+                            Playstore
+                        </button>
+                        <button 
+                            class="
+                                mx-4 
+                                border 
+                                border-white
+                                bg-transparent
+                                px-10 py-3 
+                                rounded-full
+                                hover:bg-red-500 hover:border-transparent
+                                transition-all
+                            "
+                        >
+                            Appstore
                     </div>
                 </div>
             </div>
