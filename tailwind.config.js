@@ -4,6 +4,8 @@ module.exports = {
     "./public/index.html",
     "./src/**/*.{html,js}"
   ],
+  mode: "jit",
+  purge: ["./public/**/*.html", "./public/**/*.js"],
   theme: {
     extend: {
       height: {
