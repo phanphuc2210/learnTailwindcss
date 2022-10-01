@@ -8,6 +8,9 @@ module.exports = {
     extend: {
       height: {
         custom: "620px",
+      },
+      spacing: {
+        "40-c": "40rem"
       }
     },
   },
